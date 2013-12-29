@@ -1,0 +1,179 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the django-wpadmin package.
+# Rostislav Grigorev  <hjcnbckfd@gmail.com>>, 2013.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-29 21:59+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Rostislav Grigorev <hjcnbckfd@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+
+#: dashboard/templates/admin/change_form.html:19
+#: dashboard/templates/admin/change_list.html:46
+#: menu/templates/admin/base.html:68
+msgid "Home"
+msgstr "Главная"
+
+#: dashboard/templates/admin/change_form.html:22
+#: menu/templates/wpadmin/menu/left_menu_item.html:6
+#: menu/templates/wpadmin/menu/left_menu_top_item.html:8
+#: menu/templates/wpadmin/menu/top_menu_item.html:6
+msgid "Add"
+msgstr "Добавить"
+
+#: dashboard/templates/admin/change_form.html:34
+#: dashboard/templates/admin/change_list.html:70
+msgid "Please correct the error below."
+msgid_plural "Please correct the errors below."
+msgstr[0] "Пожалуйста, исправьте ошибку ниже."
+msgstr[1] "Пожалуйста, исправьте ошибки ниже."
+
+#: dashboard/templates/admin/change_form.html:68
+msgid "Tools"
+msgstr "Сервис"
+
+#: dashboard/templates/admin/change_form.html:70
+msgid "History"
+msgstr "История"
+
+#: dashboard/templates/admin/change_form.html:71
+msgid "View on site"
+msgstr "Показать на сайте"
+
+#: dashboard/templates/admin/change_list.html:60
+msgid "Add New"
+msgstr "Добавить новый"
+
+#: dashboard/templates/admin/change_list.html:80
+msgid "Filter"
+msgstr "Фильтр"
+
+#: dashboard/templates/admin/change_list_results.html:17
+#: dashboard/templates/admin/change_list_results.html:36
+msgid "Remove from sorting"
+msgstr "Удалить из сортировки"
+
+#: dashboard/templates/admin/change_list_results.html:18
+#: dashboard/templates/admin/change_list_results.html:37
+#, python-format
+msgid "Sorting priority: %(priority_number)s"
+msgstr "Приоритет сортировки: %(priority_number)s"
+
+#: dashboard/templates/admin/change_list_results.html:19
+#: dashboard/templates/admin/change_list_results.html:38
+msgid "Toggle sorting"
+msgstr "Сортировать в другом направлении"
+
+#: dashboard/templates/admin/filter.html:3
+#, python-format
+msgid "By %(filter_title)s"
+msgstr "По %(filter_title)s"
+
+#: dashboard/templates/admin/pagination.html:10
+msgid "Show all"
+msgstr "Показать все"
+
+#: dashboard/templates/admin/pagination.html:11
+#: dashboard/templates/admin/submit_line.html:4
+msgid "Save"
+msgstr "Сохранить"
+
+#: dashboard/templates/admin/submit_line.html:3
+msgid "Publish"
+msgstr "Публикация"
+
+#: dashboard/templates/admin/submit_line.html:5
+msgid "Save as new"
+msgstr "Сохранить как новый объект"
+
+#: dashboard/templates/admin/submit_line.html:6
+msgid "Save and add another"
+msgstr "Сохранить и добавить другой объект"
+
+#: dashboard/templates/admin/submit_line.html:7
+msgid "Save and continue editing"
+msgstr "Сохранить и продолжить редактирование"
+
+#: dashboard/templates/admin/submit_line.html:8
+msgid "Delete"
+msgstr "Удалить"
+
+#: dashboard/templatetags/wpadmin_dashboard_tags.py:32
+msgid "Django site admin"
+msgstr "Django-амдинистрирование"
+
+#: menu/items.py:136
+msgid "Change"
+msgstr "Изменить"
+
+#: menu/items.py:137
+msgid "No permission"
+msgstr "Нет прав"
+
+#: menu/menus.py:43
+msgid "site"
+msgstr "сайт"
+
+#: menu/menus.py:53 menu/menus.py:56 menu/menus.py:105 menu/menus.py:108
+msgid "dashboard"
+msgstr "панель управления"
+
+#: menu/menus.py:59 menu/menus.py:113
+msgid "applications"
+msgstr "приложения"
+
+#: menu/menus.py:64 menu/menus.py:117
+msgid "administration"
+msgstr "администрирование"
+
+#: menu/templates/wpadmin/menu/left_menu.html:4
+msgid "Expand menu"
+msgstr "Раскрыть меню"
+
+#: menu/templates/wpadmin/menu/left_menu.html:4
+#: menu/templates/wpadmin/menu/left_menu.html:5
+#: menu/templates/wpadmin/menu/left_menu.html:8
+msgid "Collapse menu"
+msgstr "Скрыть меню"
+
+#: menu/templates/wpadmin/menu/left_menu.html:10
+msgid "Unpin menu"
+msgstr "Открепить меню"
+
+#: menu/templates/wpadmin/menu/left_menu.html:10
+#: menu/templates/wpadmin/menu/left_menu.html:11
+#: menu/templates/wpadmin/menu/left_menu.html:14
+msgid "Pin menu"
+msgstr "Закрепить меню"
+
+#: menu/templates/wpadmin/menu/top_menu_item.html:7
+msgid "Remove"
+msgstr "Убрать"
+
+#: menu/templates/wpadmin/menu/user_tools.html:5
+msgid "Welcome,"
+msgstr "Добро пожаловать,"
+
+#: menu/templates/wpadmin/menu/user_tools.html:16
+msgid "Change password"
+msgstr "Изменить пароль"
+
+#: menu/templates/wpadmin/menu/user_tools.html:17
+msgid "Log out"
+msgstr "Выйти"
+
+#: menu/templates/wpadmin/menu/user_tools.html:20
+msgid "Documentation"
+msgstr "Документация"

@@ -24,7 +24,8 @@ def get_admin_site_name(context):
     admin_site_name = context.get('admin_site_name', None)
     if admin_site_name is None:
         admin_site_name = context.get('request').path.split('/')[1]
-    return admin_site_name
+    return admin_site_name \
+        or 'admin'  # crooked nail
 
 
 def get_admin_site(context):
